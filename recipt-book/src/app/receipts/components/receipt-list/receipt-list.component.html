@@ -1,0 +1,32 @@
+<div class="row sort-info">
+  <div class="row p-1">
+    <div class="col-md-3"></div>
+    <mat-form-field class="col-md-6 bg-input" appearance="outline">
+      <mat-label class="white-color text-center">Find your receipt</mat-label>
+      <input class="white-color text-center" type="text" matInput [(ngModel)]="searchValue" placeholder="Type here text for searching...">
+      <button *ngIf="searchValue" matSuffix mat-icon-button aria-label="Clear" (click)="searchValue=''">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+  </div>
+</div>
+<div class="row p-3 sort-info-footer">
+  <div class="fw-bold col-md-2 text-secondary mt-2 fs-5">
+    <span class="pt-color">{{filteredReceipts?.length}} receipts found</span>
+  </div>
+  <div class="col-md-6"></div>
+  <div class="pt-color col-md-1 mt-2 text-end fs-5">Sort by:</div>
+  <mat-button-toggle-group class="col-md-3 text-secondary" name="sortBy" aria-label="Sort by" value="date">
+    <mat-button-toggle value="date" (click)="sortByDate()">Publish Date</mat-button-toggle>
+    <mat-button-toggle value="rating" (click)="sortByRating()">Rating</mat-button-toggle>
+  </mat-button-toggle-group>
+</div>
+
+<div class="row p-3">
+  <app-receipt
+    class="col-md-3"
+    *ngFor="let receipt of filteredReceipts"
+    [receipt]="receipt"
+    (receiptClicked)="onReceiptClick($event)">
+  </app-receipt>
+</div>

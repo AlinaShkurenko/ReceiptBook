@@ -1,0 +1,31 @@
+<div *ngIf="receipt" class="container p-3">
+  <div class="row receipt-img-container justify-content-md-center">
+    <div class="col-md-6 pt-bg-color p-3">
+      <div class="fs-1 fw-bold">{{receipt.name}}</div>
+
+      <div class="row mt-5">
+        <div class="col-md-3 fs-6 fw-bold">Preparation</div>
+        <div class="col-md-3 fs-6 fw-bold">Baking</div>
+        <div class="col-md-3 fs-6 fw-bold">Rating</div>
+      </div>
+      <div class="row mt-2">
+        <div class="col-md-3 fs-5">{{receipt.preparationTime}} mins</div>
+        <div class="col-md-3 fs-5">{{receipt.bakingTime}} mins</div>
+        <div class="col-md-3 fs-5">
+          <span class="align-top">
+          {{receipt.rating}}
+          </span>
+          <mat-icon class="star-icon" aria-hidden="false" aria-label="Star icon">star</mat-icon>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-md-10 fs-6">
+          {{receipt.description}}
+        </div>
+      </div>
+    </div>
+
+    <img class="col-md-4 receipt-img" [src]="receipt.imageUrl" alt="receipt image">
+  </div>
+</div>

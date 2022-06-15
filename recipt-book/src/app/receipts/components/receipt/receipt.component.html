@@ -1,0 +1,13 @@
+<div class="container mb-4" (click)="onReceiptClick()">
+  <div class="row receipt-img-container">
+    <img class="col receipt-img" [src]="receipt.imageUrl" alt="receipt image">
+  </div>
+  <div class="row fs-6 mt-2">
+    <span class="col-md-8">
+      {{receipt.name}}
+    </span>
+    <span class="col-md-4 text-end text-secondary">
+      {{receipt.publishYear}}
+    </span>
+  </div>
+</div>

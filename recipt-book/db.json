@@ -1,0 +1,84 @@
+{
+  "receipts": [
+    {
+      "id": 1,
+      "name": "Napoleons",
+      "description": "This classic French pastry is a long-time favorite at bakeries everywhere, including our King Arthur Bakery in Vermont. With its layers of crisp, flaky puff pastry and rich pastry cream, topped with a satiny black-and-white glaze, the Napoleon is equally at home on the dessert tray or with a mid-morning cup of coffee.",
+      "imageUrl": "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/2021-05/napoleons-alt.jpg?itok=m2Zl0zaW",
+      "rating": 4.5,
+      "preparationTime": 30,
+      "bakingTime": 36,
+      "publishYear": 1733
+    },
+    {
+      "id": 2,
+      "name": "Baker's Croissants",
+      "description": "Known in France as croissants de boulanger, this yeasted dough is layered with butter and given a succession of folds that create the distinctive profile of classic croissants. Light and airy and shatteringly crisp, with a deeply caramelized buttery flavor, these croissants are a labor of love that's absolutely worth the time.",
+      "imageUrl": "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/recipe_legacy/1915-3-large.jpg?itok=fl93d7mB",
+      "rating": 5,
+      "preparationTime": 45,
+      "bakingTime": 35,
+      "publishYear": 1640
+    },
+    {
+      "id": 3,
+      "name": "Pain au Chocolat",
+      "description": "Semisweet chocolate 'batons' form the basis for the traditional pain au chocolat, a yeasted puff pastry dough wrapped around a stick of chocolate. They're a favorite of French children (and those of us who never grew beyond that stage) as they stop into their neighborhood boulangerie on the way to school. Note: The dough for these rolls rests in the refrigerator several times along the way; read through the entire recipe before you start, in order to create your plan of attack.",
+      "imageUrl": "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/recipe_legacy/138-3-large.jpg?itok=bLozZKH0",
+      "rating": 4.9,
+      "preparationTime": 60,
+      "bakingTime": 20,
+      "publishYear": 1680
+    },
+    {
+      "id": 4,
+      "name": "Fruit-Filled Morning Buns",
+      "description": "Tender, buttery croissant dough is rolled with sugar that caramelizes during baking, creating a rich, complex background for your favorite fruit or jam.",
+      "imageUrl": "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/recipe_legacy/9894-3-large.jpg?itok=AkzXAijb",
+      "rating": 4.4,
+      "preparationTime": 30,
+      "bakingTime": 40,
+      "publishYear": 1711
+    },
+    {
+      "id": 5,
+      "name": "Pineapple Tarts",
+      "description": "Miso's salty, umami flavor creates a subtle counterpoint to the bright flavor of fresh fruit in these tarts.",
+      "imageUrl": "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/recipe_legacy/8375-3-large.jpg?itok=kJ6Dou8v",
+      "rating": 4.8,
+      "preparationTime": 30,
+      "bakingTime": 22,
+      "publishYear": 1813
+    },
+    {
+      "id": 6,
+      "name": "Malted Milk Palmiers",
+      "description": "Crispy, flaky, and perfectly sweet, the classic palmier takes on a whole new character with the addition of malted milk and a hint of chocolate in the filling.",
+      "imageUrl": "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/recipe_legacy/9657-3-large.jpg?itok=k-AIon-P",
+      "rating": 4.2,
+      "preparationTime": 45,
+      "bakingTime": 16,
+      "publishYear": 1821
+    },
+    {
+      "id": 7,
+      "name": "Maple Cream Napoleons",
+      "description": "You may have made croissant or other laminated doughs before, ones where you enfold a slab of butter and flour inside a sheet of dough, then roll both parts together to yield a layered butter-and-dough concoction perfect for flaky pastries. This interesting 'inverse' technique reverses the traditional method, rolling dough inside a “butter block.” The result? Pastry that’s just as flaky but even lighter than the original. This novel lamination method comes to us courtesy of author and teacher Gesine Bullock-Prado, who shows you how to turn the resulting pastry into Maple Cream Napoleons.",
+      "imageUrl": "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/2020-05/inverse-puff-pastry.jpg?itok=dWxh-jbF",
+      "rating": 4.9,
+      "preparationTime": 60,
+      "bakingTime": 40,
+      "publishYear": 1754
+    },
+    {
+      "id": 8,
+      "name": "Flaky Apple Tart",
+      "description": "Move over apple pie! This simple, chic apple tart might be our latest pastry crush. Coarse sugar adds crunch and luxurious caramel flavor while butter bathes the flaky rye crust both top and bottom. This dessert is a great example of simplicity at its best.",
+      "imageUrl": "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/2021-02/flakey-apple-tart-2.jpg?itok=Q35ZeKtJ",
+      "rating": 4.7,
+      "preparationTime": 25,
+      "bakingTime": 35,
+      "publishYear": 1644
+    }
+  ]
+}

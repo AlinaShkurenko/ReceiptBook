@@ -1,0 +1,19 @@
+<div>
+  <div class="container d-flex flex-column min-vh-100 receipts-list-containe">
+    <header class="bg-dark row p-3">
+      <div class="col-md-4">
+        <a routerLink="home">
+          <span class="fs-5 fw-bold pt-color">Receipts</span>
+        </a>
+      </div>
+    </header>
+    <router-outlet #routerOutlet="outlet"></router-outlet>
+    <footer class="bg-dark row p-3 mt-auto">
+      <div class="col-md-4">
+        <a routerLink="home">
+          <span class="fs-5 fw-bold pt-color">Receipts</span>
+        </a>
+      </div>
+    </footer>
+  </div>
+</div>
